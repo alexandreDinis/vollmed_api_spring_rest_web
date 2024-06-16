@@ -1,0 +1,3 @@
+ALTER TABLE users DROP COLUMN user;
+
+ALTER TABLE users CHANGE COLUMN login user VARCHAR(100);
